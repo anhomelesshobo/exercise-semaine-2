@@ -2,13 +2,15 @@
 
 namespace exerciseWeek2
 {
-    class Program
+    class numero1
     {
         public static string Nom = "Pierluc Dupont";
-        
-        static void Main(string[] args)
+
+        private static void Main(string[] args)
         {
             Console.WriteLine(Nom);
         }
     }
+
+  
 }
