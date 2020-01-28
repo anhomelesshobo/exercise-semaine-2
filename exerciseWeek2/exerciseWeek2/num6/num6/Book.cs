@@ -4,12 +4,12 @@ using System.Text;
 
 namespace num6
 {
-    class Book
+    class Book : Media
     {
-        public string Title { get; set; }
+        protected string Title { get; set; }
         public string ISBN { get; set; }
-        public double Price { get; set; }
-        private int stock { get; set; }
+        protected double Price { get; set; }
+        private protected int stock { get; set; }
 
         public int InStock()
         {

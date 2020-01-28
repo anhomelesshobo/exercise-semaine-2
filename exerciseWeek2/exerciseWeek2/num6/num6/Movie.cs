@@ -4,15 +4,15 @@ using System.Text;
 
 namespace num6
 {
-    class Movie
+    class Movie : Media
     {
-        public string Title { get; set; }
+        protected string Title { get; set; }
 
         public int Year { get; set; }
 
-        public double Price { get; set; }
+        protected double Price { get; set; }
 
-        public int stock { get; set; }
+        protected int stock { get; set; }
 
         public int InStock()
         {

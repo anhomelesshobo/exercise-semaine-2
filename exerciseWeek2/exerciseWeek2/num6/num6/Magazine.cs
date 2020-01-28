@@ -4,15 +4,15 @@ using System.Text;
 
 namespace num6
 {
-    class Magazine
+    class Magazine : Media
     {
-        public string Title { get; set; }
+        protected string Title { get; set; }
 
         public string Issue { get; set; }
 
-        public double Price { get; set; }
+        protected double Price { get; set; }
 
-        private int stock { get; set; }
+        private protected int stock { get; set; }
 
         public int InStock()
         {
